@@ -11,20 +11,32 @@ Ans:
     c. Combined test data & and training data into singlle data frame using rbind function.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
 Ans: 
     a. added column names to data using features dataset.
+
     b. Discarded all column names that does not containing mean & standard deviation.
 
 
+
 3. Uses descriptive activity names to name the activities in the data set.
-Ans: 
+
+Ans:
+ 
     Map "activity" column with "lables" data set 
 
+
 4. Appropriately labels the data set with descriptive variable names.
-Ans: 
+
+Ans:
+ 
     Replaced the names in data set with names from activity labels
 
+
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 Ans: 
+
     a. Summarized the output dataset of Question 4 , by grouping them into activity and then subsrouping them into subject.
+
     b. Calculated the mean of each activity subjectwise.
