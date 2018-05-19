@@ -5,10 +5,15 @@ This is solution to 3rd course(Getting &amp; cleaning data)  week 4 assignment o
 You should create one R script called run_analysis.R that does the following.
 
 1. Merges the training and the test sets to create one data set.
+
 Ans:
+
     a. Read each training data(x, subject & activity) separately and merged into single data frame.
+
     b. Read each test data(x, subject & activity) separately and merged into single data frame.
+
     c. Combined test data & and training data into singlle data frame using rbind function.
+
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
